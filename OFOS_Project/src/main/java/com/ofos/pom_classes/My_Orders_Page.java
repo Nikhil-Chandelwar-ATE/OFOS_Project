@@ -6,8 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.relevantcodes.extentreports.LogStatus;
-
 public class My_Orders_Page extends Base_Page{
 
 	public My_Orders_Page(WebDriver driver) {

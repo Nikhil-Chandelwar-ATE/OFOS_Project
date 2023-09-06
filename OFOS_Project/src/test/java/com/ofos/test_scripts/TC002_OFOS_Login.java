@@ -8,7 +8,6 @@ import com.ofos.pom_classes.Welcome_Page;
 import com.relevantcodes.extentreports.LogStatus;
 
 import generic.Base_Test;
-import pom_Classes.Home_Page;
 
 public class TC002_OFOS_Login extends Base_Test{
 
@@ -37,7 +36,7 @@ public class TC002_OFOS_Login extends Base_Test{
 		}
 		clickAction(lp.getLoginButton());
 		Thread.sleep(2000);
-		Home_Page hp = new Home_Page(driver);
+		//Home_Page hp = new Home_Page(driver);
 		//Assert.assertEquals(hp.getLogoutLink().isDisplayed(), true);
 		test.log(LogStatus.INFO, test.addScreenCapture(getPhoto(driver)));
 		test.log(LogStatus.PASS, "User is logged in successfully");

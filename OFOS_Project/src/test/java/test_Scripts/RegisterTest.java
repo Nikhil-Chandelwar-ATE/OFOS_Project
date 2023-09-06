@@ -9,7 +9,6 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import generic.Base_Test;
 import generic.ReadExcel;
-import pom_scripts.RegisterPage;
 import pom_scripts.WelcomePage;
 
 public class RegisterTest extends Base_Test {
@@ -20,7 +19,7 @@ public class RegisterTest extends Base_Test {
 		WelcomePage welcomePage = new WelcomePage(driver);
 		welcomePage.clickRegister();
 		test.log(LogStatus.FAIL, "step failed");
-		RegisterPage registerPage = new RegisterPage(driver);
+		//RegisterPage registerPage = new RegisterPage(driver);
 
 		
 	}

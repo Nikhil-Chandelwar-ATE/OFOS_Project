@@ -3,7 +3,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.ofos.pom_classes.Home_Page;
-import com.ofos.test_scripts.TC002_OFOS_Login;
 import com.relevantcodes.extentreports.LogStatus;
 
 import generic.Base_Test;
